@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30%;
+}
+#slcBreed{
+    height: 35px;
+    width: 165px;
+    margin-left: 30%;
+}
+#slcGen{
+    height: 35px;
+    width: 165px;
+    margin-left: 1%;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: 40%;
+}

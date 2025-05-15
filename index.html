@@ -8,12 +8,8 @@
 </head>
 <body>
     <h1>Gerador de imagens de gatos</h1>
-    <select name="slcBreed" id="slcBreed"></select>
-    <select name="slcGen" id="slcGen">
-        <option value="">Selecione uma quantidade</option>
-        <option value="gen1">Gerar 1x</option>
-        <option value="gen10">Gerar 10x</option>
-        <option value="gen100">Gerar 100x</option>
+    <select name="slcBreed" id="slcBreed" onchange="showBreedImage(value)">
+        <option value="">Selecione uma raça</option>
     </select>
     <div>
         <img src="" alt="img" id="breedImg">
